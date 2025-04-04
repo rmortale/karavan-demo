@@ -1,0 +1,15 @@
+- route:
+    id: route-a553
+    nodePrefixId: route-bc6
+    from:
+      id: from-890b
+      uri: timer
+      parameters:
+        timerName: demo
+        delay: "5000"
+      steps:
+        - to:
+            id: to-bf86
+            uri: log
+            parameters:
+              loggerName: demolog
