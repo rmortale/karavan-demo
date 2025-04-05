@@ -1,0 +1,14 @@
+- route:
+    id: route-1e46
+    nodePrefixId: route-d3c
+    from:
+      id: from-0040
+      uri: timer
+      parameters:
+        timerName: timer
+      steps:
+        - to:
+            id: to-e526
+            uri: log
+            parameters:
+              loggerName: log
