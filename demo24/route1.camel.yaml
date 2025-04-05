@@ -1,0 +1,14 @@
+- route:
+    id: route-607e
+    nodePrefixId: route-d7a
+    from:
+      id: from-d56b
+      uri: timer
+      parameters:
+        timerName: werrwer
+      steps:
+        - to:
+            id: to-2733
+            uri: log
+            parameters:
+              loggerName: werwer
